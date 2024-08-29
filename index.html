@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="style.css" rel="stylesheet"/>
+</head>
+
+<body>
+  <div class="container">
+    <p><b>Oформление заказа</b></p>
+    <form action="/search" method="post">
+      <div class="info">
+        <label for="uname">Ваше имя:</label>
+        <input type="text" name="name">
+        
+        <label for="number">Введите ваш номер телефона:</label>
+        <input type="number" name="number">
+        
+        <label for="adress">Введите ваш адрес:</label>
+        <input type="text" name="adress" >
+      
+        <label for="choosepizza">Выберите пиццу:</label>
+         <select id="nameOfPizza" name="nameOfPizza">
+         <option>Маргарита</option>
+         <option>Пицца 4 сыра</option>
+         <option>Пицца с грибами</option>
+         </select>
+      </div>
+      <div>
+        <p>Выберите добавку:</p>
+        <label for="garlic">Чеснок</label>
+        <input type="checkbox" id="garlic"> 
+        <label for="mushrooms">Грибы</label>
+        <input type="checkbox" id="mushrooms""> 
+        <label for="bacon">Бекон</label>
+        <input type="checkbox" id="bacon"> 
+      </div>
+      <div>
+        <p>Выберите размер:</p>
+        <label class="radiobtn" for="radio">Маленькая</label>
+        <input class="radiobtn" type="radio" name="name" value="Маленькая">
+        <label class="radiobtn" for="radio">Средняя</label>
+        <input class="radiobtn" type="radio" name="name" value="Средняя">
+        <label class="radiobtn" for="radio">Большая</label>
+        <input class="radiobtn" type="radio" name="name" value="Большая">
+      </div>
+      <div>
+        <input class="btn" type="submit" value="Заказать">
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
